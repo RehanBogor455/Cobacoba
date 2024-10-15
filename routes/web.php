@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('akmal', function () {
     return view('Login');
 });
+
+
+Route::get('/about', function () {
+    return view('About');
+});
