@@ -17,11 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('akmal', function () {
-    return view('Login');
+Route::get('/akmal', function () {
+    return view('Akmal');
 });
 
 
 Route::get('/about', function () {
     return view('About');
+});
+
+
+Route::get('/tentang', function () {
+    return view('Tentang');
 });
